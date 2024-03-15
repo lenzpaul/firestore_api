@@ -1,0 +1,8 @@
+targets:
+  $default:
+    builders:
+      # This is to handle nested classes. 
+      # See https://github.com/rrousselGit/freezed/issues/232#issuecomment-658730167
+      json_serializable:
+        options:
+          explicit_to_json: true

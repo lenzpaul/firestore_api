@@ -1,0 +1,26 @@
+name: firestore_api
+description: "Firestore convenience interface that exposes CRUD operations and Stream for Firestore collections and documents."
+version: 0.0.1
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  cloud_firestore: ^4.13.3
+  repository:
+    git:
+      url: git@github.com:lenzpaul/repository.git
+  
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+ 
+flutter:
