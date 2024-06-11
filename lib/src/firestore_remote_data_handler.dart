@@ -13,11 +13,8 @@ class FirestoreRemoteDataHandler<T> extends RemoteDataHandler<T> {
   });
 
   final FirestoreAPIClient _firestoreAPIClient = FirestoreAPIClient.instance;
-
-  /// The name of the collection to be used in Firestore.
   final String collectionName;
 
-  /// The serializer to be used to serialize and deserialize data.
   @override
   final Serializer<T> serializer;
 
